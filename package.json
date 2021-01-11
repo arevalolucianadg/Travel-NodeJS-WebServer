@@ -4,7 +4,7 @@
   "description": "Webserver con NodeJS y HandleBars",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app",
+    "dev": "nodemon server -e js,hbs,html,css",
     "start": "node app"
   },
   "author": "Luciana Arevalo",
